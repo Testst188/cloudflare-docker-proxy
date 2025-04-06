@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.major.us.kg", custom_domain = true },
-#   { pattern = "quay.major.us.kg", custom_domain = true },
-#   { pattern = "gcr.major.us.kg", custom_domain = true },
-#   { pattern = "k8s-gcr.major.us.kg", custom_domain = true },
-#   { pattern = "k8s.major.us.kg", custom_domain = true },
-#   { pattern = "ghcr.major.us.kg", custom_domain = true },
-#   { pattern = "cloudsmith.major.us.kg", custom_domain = true },
+#   { pattern = "docker.major.dpdns.org", custom_domain = true },
+#   { pattern = "quay.major.dpdns.org", custom_domain = true },
+#   { pattern = "gcr.major.dpdns.org", custom_domain = true },
+#   { pattern = "k8s-gcr.major.dpdns.org", custom_domain = true },
+#   { pattern = "k8s.major.dpdns.org", custom_domain = true },
+#   { pattern = "ghcr.major.dpdns.org", custom_domain = true },
+#   { pattern = "cloudsmith.major.dpdns.org", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.major.us.kg", custom_domain = true }
+# route = { pattern = "docker-staging.major.dpdns.org", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
